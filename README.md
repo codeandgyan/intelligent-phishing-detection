@@ -3,3 +3,4 @@
 
 - Go to https://github.com/codeandgyan/intelligent-phishing-detection/tree/main/phish-feature-collector-service to see the instructions to setup Feature Engineering Service.
 - Go to https://github.com/codeandgyan/intelligent-phishing-detection/tree/main/phish-prediction-service to setup the Prediction Service as well as the Vector Image Search Service.
+- Go to https://github.com/codeandgyan/intelligent-phishing-detection/tree/main/phish-detector-extension to setup the Browser extension to detect phishing websites.
