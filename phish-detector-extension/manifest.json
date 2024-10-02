@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "Intelligent Phishing Detector",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "32": "images/icon32x32.png"
+    }
+  },
+  "permissions": ["tabs", "scripting", "activeTab"],
+  "host_permissions": ["http://*/*", "https://*/*"]
+}
