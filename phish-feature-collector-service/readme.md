@@ -40,7 +40,6 @@ These set of features will be fed to Machine Learning for creating a model.
    - Endpoint 2
      - You can use the endpoint **POST** `http://localhost:8000/start-scan` by passing the `type: good or phish` to start the scan.
      - The scan would take a little longer time to finish. No response might be returned until that time.
-     - scan type `phish` might not work correctly on Gen network.
      - The scanned site screenshots will be created in `./public/screenshots/` folder.
      - Once the scan is complete, the feature output will be created in `./public/output/output.json` file
 
