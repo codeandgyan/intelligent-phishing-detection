@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+  api-service:
+    build: .
+    ports:
+      - 8000:8000
+    environment:
+      PORT: 8000
+    command: node ./server.js
+
+  collector-service:
+    build: .
+    environment:
+      PORT: 8000
+      DATA_SOURCE: phish
+      START_INDEX: 231
+      END_INDEX: 250
+    command: node ./index.js
