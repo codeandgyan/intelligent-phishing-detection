@@ -7,9 +7,13 @@ These set of features will be fed to Machine Learning for creating a model.
 
  - Clone this repo.
     ```
-    git clone https://git-gen.ida.avast.com/ramalingam-srinivasa/phish-feature-collector.git
+    git clone https://github.com/codeandgyan/intelligent-phishing-detection.git
     ```
- - Open the folder `phish-feature-collector` on VS Code.
+ - Change directory to `phish-feature-collector-service`
+   ```
+   cd phish-feature-collector-service
+   ```
+ - Open the folder `phish-feature-collector-service` on VS Code.
  - Install the dependencies.
     ```
     npm install
